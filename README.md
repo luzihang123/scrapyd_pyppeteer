@@ -1,6 +1,12 @@
 scrapyd_pyppeteer：包含 python3.8 selenium pyppeteer scrapy scrapyd scrapyd-client logparser
 可以用于scrapydweb的scrapyd节点，使用pyppeteer，在[scrapy中异步使用](https://www.jianshu.com/p/aeb9a7adcfa8)
 
+【docker+pyppeteer跑通】想想空间很大，python版puppeteer，配合异步，docker的扩展。
+
+网上没什么现成的资料，自己终于琢磨出来了。
+
+splash集群渲染效果差，selenium gird内存原因等引发的长期不稳定问题，pyppeteer配合async作为一个重要补充。
+
 
 测试代码:
 ```python

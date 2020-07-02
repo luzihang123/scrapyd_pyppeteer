@@ -1,0 +1,2 @@
+# scrapyd_pyppeteer
+可以用于scrapydweb的scrapyd节点，使用pyppeteer，在scrapy中异步解析

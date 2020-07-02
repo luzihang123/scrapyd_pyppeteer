@@ -1,5 +1,5 @@
 scrapyd_pyppeteer：包含 python3.8 selenium pyppeteer scrapy scrapyd scrapyd-client logparser
-可以用于scrapydweb的scrapyd节点，使用pyppeteer，在scrapy中异步解析
+可以用于scrapydweb的scrapyd节点，使用pyppeteer，在[scrapy中异步使用](https://www.jianshu.com/p/aeb9a7adcfa8)
 
 
 测试代码:

@@ -13,7 +13,11 @@ splash集群渲染效果差，selenium gird内存原因等引发的长期不稳�
 ## 1、启动 scrapyd
 
 ```docker
-docker run -p 6800:6800 chinaclark1203/scrapyd_pyppeteer
+# dockerhub
+# docker run -p 6800:6800 chinaclark1203/scrapyd_pyppeteer
+
+# 阿里云
+docker run -p 6800:6800 registry.cn-hangzhou.aliyuncs.com/luzihang/scrapyd_pyppeteer
 ```
 
 scrapyd启动日志:

@@ -8,6 +8,7 @@ scrapyd_pyppeteer：包含 python3.8 selenium pyppeteer scrapy scrapyd scrapyd-c
 
 splash集群渲染效果差，selenium gird内存原因等引发的长期不稳定问题 [selenium-server服务内容溢出，导致脚本如法正常执行](https://blog.csdn.net/u013948858/article/details/84554755)，pyppeteer配合async作为一个重要补充。
 
+[pyppeteer使用遇到的bug及解决方法](https://www.sanfenzui.com/pyppeteer-bug-collection.html)
 
 # 快速尝试
 ## 1、启动 scrapyd

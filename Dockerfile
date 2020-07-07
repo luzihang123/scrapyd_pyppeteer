@@ -25,6 +25,10 @@ RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 # MySQL相关依赖
 RUN apt-get install libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev default-libmysqlclient-dev -y
 
+# 安装中文字体
+RUN apt-get install language-pack-zh* -y
+RUN apt-get install chinese* -y
+
 # install
 RUN pip install selenium pyppeteer scrapy scrapyd scrapyd-client logparser
 

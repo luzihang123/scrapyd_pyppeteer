@@ -34,7 +34,7 @@ RUN apt-get install -y locales locales-all
 RUN locale-gen "zh_CN.UTF-8"
 RUN update-locale LC_ALL=zh_CN.UTF-8
 RUN export LC_ALL=zh_CN.UTF-8
-RUN apt-get install language-pack-zh-hans -y
+# RUN apt-get install language-pack-zh-hans -y
 RUN apt-get install chinese* -y
 
 # install

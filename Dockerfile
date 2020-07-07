@@ -26,8 +26,15 @@ RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 RUN apt-get install libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev default-libmysqlclient-dev -y
 
 # 安装中文字体
-RUN apt-get install -y locales locales-all -y
-RUN apt-get install language-pack-zh* -y
+# ENV LANGUAGE zh_CN.UTF-8
+# ENV LC_ALL zh_CN.UTF-8
+# ENV LANG zh_CN.UTF-8
+# ENV LC_TYPE zh_CN.UTF-8
+RUN apt-get install -y locales locales-all
+RUN locale-gen "zh_CN.UTF-8"
+RUN update-locale LC_ALL=zh_CN.UTF-8
+RUN export LC_ALL=zh_CN.UTF-8
+RUN apt-get install language-pack-zh-hans -y
 RUN apt-get install chinese* -y
 
 # install

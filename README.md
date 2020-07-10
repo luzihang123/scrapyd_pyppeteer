@@ -10,6 +10,10 @@ splash集群渲染效果差，selenium gird内存原因等引发的长期不稳�
 
 [pyppeteer使用遇到的bug及解决方法](https://www.sanfenzui.com/pyppeteer-bug-collection.html)
 
+经验：
+https://pypi.org/project/scrapy-pyppeteer/ 测试1个网站的渲染，操作是可以；但是对于多个网站的操作，并发控制不行，不能正确的结束爬虫任务，还需要在研究。
+
+
 # 快速尝试
 ## 1、启动 scrapyd
 

@@ -19,7 +19,7 @@ Click==7.0
 constantly==15.1.0
 cpca==0.4.4
 crawlab-sdk==0.1.7
-cryptography==2.6.1
+cryptography==3.2
 cssselect==1.0.3
 dateparser==0.7.2
 dnspython==1.16.0

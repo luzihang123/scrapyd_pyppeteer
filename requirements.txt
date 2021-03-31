@@ -44,7 +44,7 @@ jsonpath==0.81
 kafka-python==1.4.7
 kombu==4.6.7
 logparser==0.8.2
-lxml==4.3.2
+lxml==4.6.3
 MarkupSafe==1.1.1
 more-itertools==7.2.0
 mysqlclient==1.4.4

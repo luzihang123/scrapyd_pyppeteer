@@ -87,7 +87,7 @@ Scrapy==1.8.0
 scrapy-redis==0.6.8
 scrapy-redis-bloomfilter==0.7.0
 scrapy-sentry==0.9.0
-scrapy-splash==0.7.2
+scrapy-splash==0.8.0
 scrapyd==1.2.0
 scrapyd-client==1.1.0
 selenium==3.141.0

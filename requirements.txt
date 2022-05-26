@@ -102,7 +102,7 @@ tldextract==2.2.1
 toml==0.10.0
 tornado==5.1.1
 tqdm==4.46.1
-Twisted==18.9.0
+Twisted==22.4.0
 tzlocal==2.0.0
 ucloud-sdk-python3==0.3.0
 ufile==3.1.0
